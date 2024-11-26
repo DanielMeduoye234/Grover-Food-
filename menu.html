@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grover-menu</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="images/logo.png" alt="Logo">
+                    </a>
+                </div>
+                <div class="hamburger">
+                    <i class="fa fa-bars"></i> <!-- Hamburger Icon -->
+                </div>
+                <div class="main-menu">
+                    <ul>
+                        <li>
+                            <a href="index.html">Home</a>
+                            <a href="menu.html">Menu</a>
+                            <a href="services.html">Services</a>
+                            <a href="contact-us.html">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="nav-search">
+                    <input type="text" placeholder="Search" class="search-input">
+                    <i class="fa fa-search search-icon"></i>
+                    <i class="fa fa-shopping-cart cart-icon"></i>
+                </div>
+            </div>
+            <!-- Mobile Menu -->
+            <div class="mobile-menu">
+                <div class="close-icon">
+                    <i class="fa fa-times"></i> <!-- Close Icon -->
+                </div>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact-us.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="new-hero-section">
+        <div class="new-hero-overlay"></div>
+        <h1>Our Menu</h1>
+        
+    </div>
+
+    <section class="restaurant-menu">
+        <div class="container">
+            <div class="menu-header">
+                
+                <div class="menu-filters">
+                    <button class="filter-btn" data-category="all">All</button>
+                    <button class="filter-btn" data-category="appetizers">Appetizers</button>
+                    <button class="filter-btn" data-category="main-course">Main Course</button>
+                    <button class="filter-btn" data-category="desserts">Desserts</button>
+                    <button class="filter-btn" data-category="beverages">Beverages</button>
+                </div>
+            </div>
+            <div class="menu-grid">
+                <!-- Example Dish Items -->
+                <div class="menu-item" data-category="appetizers">
+                    <img src="images/pot-traditional-chicken-curry-set-spices_220507-20768.avif" alt="Dish 1">
+                    <h3>Grilled Shrimp</h3>
+                    <p>$12.99</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="menu-item" data-category="main-course">
+                    <img src="images/front-view-tasty-meat-soup-with-potatoes-greens-dark-desk-meal-meat-dish-sauce_140725-79118.avif" alt="Dish 2">
+                    <h3>Spaghetti Carbonara</h3>
+                    <p>$15.99</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="menu-item" data-category="desserts">
+                    <img src="images/baked-spicy-pumpkin-with-meat-beans_2829-7861.avif" alt="Dish 3">
+                    <h3>Chocolate Cake</h3>
+                    <p>$7.99</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="menu-item" data-category="beverages">
+                    <img src="images/chicken-skewers-with-slices-sweet-peppers-dill_2829-18809.avif" alt="Dish 4">
+                    <h3>Fresh Lemonade</h3>
+                    <p>$4.99</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="menu-item" data-category="appetizers">
+                    <img src="images/grilled-chicken-with-bell-pepper-skewer_177613-1711.avif" alt="Dish 1">
+                    <h3>Grilled Chicken</h3>
+                    <p>$12.99</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="menu-item" data-category="main-course">
+                    <img src="images/grilled-meat-skewers-chicken-shish-kebab-with-zucchini-tomatoes-red-onions-barbecue-food_2829-8116.avif" alt="Dish 2">
+                    <h3>Grilled Meat</h3>
+                    <p>$15.99</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="menu-item" data-category="desserts">
+                    <img src="images/spicy-mexican-food-with-red-hot-chilli-peppers_23-2148224114.avif" alt="Dish 3">
+                    <h3>Spicy Chilli</h3>
+                    <p>$7.99</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="menu-item" data-category="beverages">
+                    <img src="images/side-view-beef-salad-sliced-red-meat-with-tomato-bell-pepper-lettuce-box_141793-4770.avif" alt="Dish 4">
+                    <h3>Beef Salad</h3>
+                    <p>$4.99</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="menu-item" data-category="appetizers">
+                    <img src="images/bruschetta-caponata-with-raisins-pine-nuts-decorated-with-leaf-basil_2829-4028.jpg" alt="Dish 1">
+                    <h3>Coponata Raisins</h3>
+                    <p>$12.99</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="menu-item" data-category="main-course">
+                    <img src="images/spaghetti-bolognese-pasta-with-tomato-sauce-vegetables-minced-meat_2829-2925.avif" alt="Dish 2">
+                    <h3>Spaghetti Carbonara</h3>
+                    <p>$15.99</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="menu-item" data-category="desserts">
+                    <img src="images/stuffed-zucchini-with-chicken-tomatoes-olives-with-cheese-crust_2829-8482.avif" alt="Dish 3">
+                    <h3>Zucchini Dish</h3>
+                    <p>$7.99</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="menu-item" data-category="beverages">
+                    <img src="images/veal-fillet-stir-fry-with-oranges-paprika-sweet-sour-sauce-wooden-table_2829-19959.avif" alt="Dish 4">
+                    <h3>Veal Orange Paprika</h3>
+                    <p>$4.99</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+            <div class="view-more">
+                <button class="load-more">View More</button>
+            </div>
+        </div>
+        
+    </section>
+    
+    <footer>
+        <div class="container">
+            <div class="footer-col-1">
+                <img src="images/logo.png" alt="footer logo" class="footer-logo">
+                <p>Fast delivery, which is active all <br> over the world, serves with many<br> transportation vehicles.</p>
+            </div>
+            <div class="footer-col">
+                <h4 class="footer-heading">Company</h4>
+                <ul>
+                    <a href="#"><li>About Us</li></a>
+                    <a href="#"><li>Blogs</li></a>
+                    <a href="#"><li>All Products</li></a>
+                    <a href="#"><li>Location Maps</li></a>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4 class="footer-heading">Services</h4>
+                <ul>
+                    <a href="#"><li>Order Tracking</li></a>
+                    <a href="#"><li>My Accounts</li></a>
+                    <a href="#"><li>Terms & Condition</li></a>
+                    <a href="#"><li>Wish Lists</li></a>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4 class="footer-heading">Get In Touch</h4>
+                <p>Subscribe to our weekly<br> Newsletter and receive<br> updates via email.</p>
+        </div>
+    </footer>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
